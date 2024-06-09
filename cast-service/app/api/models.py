@@ -1,5 +1,5 @@
-from pydantic import BaseModel
-from typing import List, Optional
+from pydantic import BaseModel # type: ignore
+from typing import Optional
 
 class CastIn(BaseModel):
     name: str

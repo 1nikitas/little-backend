@@ -1,6 +1,6 @@
 import os
 
-from sqlalchemy import (Column, DateTime, Integer, MetaData, String, Table,
+from sqlalchemy import (Column, Integer, MetaData, String, Table,
                         create_engine, ARRAY)
 
 from databases import Database
