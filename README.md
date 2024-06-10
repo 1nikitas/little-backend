@@ -44,3 +44,7 @@
     docker-compose up -d
     ```
 3. Откройте [документацию для movie-service](http://localhost:8080/api/v1/movies/docs) и [документацию для cast-service](http://localhost:8080/api/v1/casts/docs).
+
+
+# TODO:
+1. Добавить комментарии
