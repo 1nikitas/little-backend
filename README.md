@@ -36,42 +36,6 @@
 
 - Содержит настройки для маршрутизации запросов к соответствующим сервисам на основе пути URL.
 
-### Структуры проекта
-
-.
-├── cast-service
-│   ├── app
-│   │   ├── api
-│   │   │   └── endpoints
-│   │   │       └── casts.py
-│   │   ├── core
-│   │   │   └── config.py
-│   │   ├── models
-│   │   │   └── cast.py
-│   │   ├── schemas
-│   │   │   └── cast.py
-│   │   ├── crud
-│   │   │   └── cast.py
-│   │   └── main.py
-├── movie-service
-│   ├── app
-│   │   ├── api
-│   │   │   └── endpoints
-│   │   │       └── movies.py
-│   │   ├── core
-│   │   │   └── config.py
-│   │   ├── models
-│   │   │   └── movie.py
-│   │   ├── schemas
-│   │   │   └── movie.py
-│   │   ├── crud
-│   │   │   └── movie.py
-│   │   └── main.py
-├── docker-compose.yml
-└── nginx_config.conf
-
-
-
 ## Установка и запуск
 
 1. Убедитесь, что установлены `docker` и `docker-compose`.
