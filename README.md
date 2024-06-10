@@ -1,8 +1,20 @@
-# python-microservice-fastapi
-Learn to build your own microservice using Python and FastAPI
+# Little Backend
 
-## How to run??
- - Make sure you have installed `docker` and `docker-compose`
- - Run `docker-compose up -d`
- - Head over to http://localhost:8080/api/v1/movies/docs for movie service docs 
-   and http://localhost:8080/api/v1/casts/docs for cast service docs
+## Описание проекта
+
+Этот проект демонстрирует микросервисную архитектуру на базе FastAPI. Включает два сервиса: `cast-service` для работы с данными актеров и `movie-service` для работы с данными фильмов. Сервисы оркестрируются с помощью Docker и NGINX для маршрутизации.
+
+## Архитектура
+
+- **cast-service**: Обработка данных актеров.
+- **movie-service**: Обработка данных фильмов.
+- **NGINX**: Маршрутизация запросов к соответствующим сервисам.
+
+## Установка и запуск
+
+1. Убедитесь, что установлены `docker` и `docker-compose`.
+2. Запустите команду:
+    ```bash
+    docker-compose up -d
+    ```
+3. Откройте [документацию для movie-service](http://localhost:8080/api/v1/movies/docs) и [документацию для cast-service](http://localhost:8080/api/v1/casts/docs).
