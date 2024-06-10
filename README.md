@@ -71,6 +71,7 @@
 └── nginx_config.conf
 
 
+
 ## Установка и запуск
 
 1. Убедитесь, что установлены `docker` и `docker-compose`.
